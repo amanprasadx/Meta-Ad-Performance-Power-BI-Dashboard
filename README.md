@@ -50,8 +50,11 @@ The dashboard provides insights into:
 - Geographic distribution
 - Time-based advertising trends
 ## 🖼️ Dashboard Preview
-![Meta Ad Performance Overview](Dashboard/Meta_Ad_Performance_Overview.png)
-![Instagram Analysis](Dashboard/Meta_Ad_Performance_Instagram.png)
+### Meta Ad Performance Overview
+![Meta Ad Performance Overview](Meta_Ad_Performance_Overview.png)
+### Instagram Analysis
+![Instagram Analysis](Meta_Ad_Performance_Instagram.png)
+
 ## 💡 Business Value
 This dashboard demonstrates how advertising data can be transformed into interactive business intelligence to support campaign monitoring, performance evaluation, audience analysis, and data-driven marketing decisions.
 ## 👤 Author
