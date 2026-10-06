@@ -1,96 +1,74 @@
-# Meta Ad Performance Dashboard
-
-This dashboard provides an interactive view of Meta advertising performance by tracking key metrics such as **Impressions, Clicks, Shares, Comments, Purchases, and Engagements**.
-
-It also analyzes performance rates including **CTR, Engagement Rate, Conversion Rate, and Purchase Rate**.
-
-The dashboard uses **dynamic measures and interactive slicers** to allow users to explore the data from different perspectives.
-
-## 🔍 Key Features
-
-- 📊 KPI cards for key advertising performance metrics
-- 🔄 **Dynamic Measure Selection** to change the metric displayed across multiple visualizations
-- 📝 **Dynamic chart titles and labels** that update based on the selected measure
-- 🎯 **Campaign Name slicer** for campaign-level analysis
-- 👥 **Target Interest slicer** for audience-based analysis
-- 📱 Separate dashboards for **Facebook and Instagram**
-- 👤 Audience analysis by **Age and Gender**
-- 🌍 Geographic analysis by **Country**
-- 📅 Monthly analysis
-- 📈 Weekly performance trends
-- ⏰ Hourly performance trends
-- 🎥 Performance analysis by ad type:
-  - Image
-  - Video
-  - Carousel
-  - Stories
-- 💰 Total Budget and Average Budget per Campaign
-- 🔎 Interactive filtering across dashboard visuals
-
-## 📈 Dynamic Analysis
-
-The dashboard includes a **Dynamic Measure selector** that allows users to select different metrics for analysis.
-
-When a measure is selected, the **chart titles, labels, and visual values update dynamically** according to the selected metric.
-
-This makes the dashboard more interactive and allows multiple performance metrics to be explored using the same set of visualizations.
-
-## 🎯 Interactive Slicers
-
-### Dynamic Measure
-
-Allows users to select the metric they want to analyze.
-
-### Campaign Name
-
-Allows users to select a specific campaign or view the overall campaign performance.
-
-### Target Interest
-
-Allows users to filter the dashboard based on the selected target audience interest.
-
-The slicers interact with the dashboard visuals to provide focused and customized analysis.
-
+# 📊 Meta Ad Performance Dashboard
+An interactive Power BI dashboard designed to analyze Meta advertising performance across Facebook and Instagram.
+## 🎯 Project Objective
+The objective of this project is to transform advertising campaign data into an interactive dashboard that helps understand campaign reach, engagement, clicks, conversions, purchases, and overall advertising performance.
+## 📌 Key KPIs
+- Impressions: 216K
+- Clicks: 25.4K
+- Shares: 1.3K
+- Comments: 2.6K
+- Purchases: 1.3K
+- Engagements: 29.3K
+- CTR: 11.76%
+- Engagement Rate: 13.56%
+- Conversion Rate: 5.21%
+- Purchase Rate: 0.61%
+- Total Budget: $2.5M
+- Average Budget per Campaign: $50.7K
+## 📊 Dashboard Features
+- Gender-wise performance analysis
+- Age-wise performance analysis
+- Country-wise advertising reach
+- Weekly performance trends
+- Hourly performance trends
+- Monthly analysis
+- Ad-type performance comparison
+- Facebook and Instagram analysis
+- Dynamic measure selection
+- Campaign filtering
+- Target-interest filtering
+- Interactive KPI cards and visualizations
 ## 🛠️ Tools & Technologies
-
-- **Microsoft Power BI**
-- **Power Query**
-- **DAX**
-
-## 📊 Analysis Covered
-
+- Microsoft Power BI
+- Power Query
+- DAX
+- Data Modeling
+- Data Visualization
+- Interactive Dashboards
+- KPI Analysis
+- Business Intelligence
+## 📈 Key Analysis Areas
 The dashboard provides insights into:
-
-- Advertising performance
+- Advertising reach and impressions
+- User engagement
+- Click-through performance
+- Conversion performance
+- Purchase behavior
+- Campaign performance
+- Ad-type effectiveness
 - Audience demographics
 - Geographic distribution
-- Time-based trends
-- Campaign performance
-- Target audience interests
-- Ad-type performance
-- Facebook vs Instagram performance
-- Advertising budget
-- Performance rates
-
-## 📅 Dataset
-
-**Platforms:** Facebook & Instagram  
-**Data Period:** May – August 2025  
-**Data Type:** Meta Advertising Performance Data
-
-The project uses four months of data selected from a larger dataset to create a focused and interactive analysis.
-
-## 🎯 Project Objective
-
-The objective of this project was to transform advertising data into an interactive business intelligence dashboard while practicing:
-
-- Data cleaning and transformation using **Power Query**
-- Data modeling in **Power BI**
-- KPI creation
-- DAX calculations
-- Dynamic measures
-- Interactive slicers
-- Data visualization
-- Dashboard design
-
-Data Analytics | Power BI | Excel
+- Time-based advertising trends
+## 🖼️ Dashboard Preview
+### Meta Ad Performance Overview
+![Dashboard Overview](Dashboard/Meta_Ad_Performance_Overview.png)
+### Instagram Analysis
+![Instagram Analysis](Dashboard/Meta_Ad_Performance_Instagram.png)
+## 💡 Business Value
+This dashboard demonstrates how advertising data can be transformed into interactive business intelligence to support campaign monitoring, performance evaluation, audience analysis, and data-driven marketing decisions.
+## 👤 Author
+**Aman Prasad**
+## 📁 Project Structure
+meta-ad-performance-powerbi/
+│
+├── README.md
+│
+├── PowerBI/
+│   └── Meta_Ad_Performance_Dashboard.pbix
+│
+├── Dashboard/
+│   ├── Meta_Ad_Performance_Overview.png
+│   └── Meta_Ad_Performance_Instagram.png
+│
+└── Dataset/
+    └── meta_ad_performance_data.zip
